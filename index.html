@@ -13,7 +13,6 @@
         <div class="container header-container">
             <a href="#" class="logo">Burger <span>House</span></a>
             
-            <!-- Menu Desktop / Mobile -->
             <nav class="nav" id="nav-menu">
                 <ul class="nav-list">
                     <li><a href="#home" class="nav-link">Início</a></li>
@@ -25,7 +24,6 @@
                 </ul>
             </nav>
 
-            <!-- Botão Hambúrguer para Telas Menores -->
             <button class="btn-mobile" id="btn-mobile" aria-label="Abrir Menu">
                 <span class="hamburger"></span>
             </button>
@@ -50,7 +48,6 @@
             <p class="section-subtitle">Escolha o seu favorito e faça o pedido direto pelo WhatsApp!</p>
 
             <div class="cardapio-grid">
-                <!-- Produto 1 -->
                 <div class="card">
                     <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500" alt="House Burger" class="card-img">
                     <div class="card-content">
@@ -63,7 +60,6 @@
                     </div>
                 </div>
 
-                <!-- Produto 2 -->
                 <div class="card">
                     <img src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=500" alt="Double Bacon" class="card-img">
                     <div class="card-content">
@@ -76,7 +72,6 @@
                     </div>
                 </div>
 
-                <!-- Produto 3 -->
                 <div class="card">
                     <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?w=500" alt="Smash Gorgonzola" class="card-img">
                     <div class="card-content">
@@ -89,7 +84,6 @@
                     </div>
                 </div>
 
-                <!-- Produto 4 -->
                 <div class="card">
                     <img src="https://images.unsplash.com/photo-1520072959219-c595dc870360?w=500" alt="Chicken Crispy" class="card-img">
                     <div class="card-content">
@@ -102,7 +96,6 @@
                     </div>
                 </div>
 
-                <!-- Produto 5 -->
                 <div class="card">
                     <img src="https://images.unsplash.com/photo-1525059696034-4967a8e1dca2?w=500" alt="Veggie Monster" class="card-img">
                     <div class="card-content">
@@ -115,7 +108,6 @@
                     </div>
                 </div>
 
-                <!-- Produto 6 -->
                 <div class="card">
                     <img src="https://images.unsplash.com/photo-1630384060421-cb20d0e0649d?w=500" alt="Batata Rustica" class="card-img">
                     <div class="card-content">
@@ -155,92 +147,7 @@
                         <option value="Batata Rústica">Batata Rústica - R$ 22,00</option>
                     </select>
                 </div>
-                /* ===================================
-   ESTILIZAÇÃO DO FORMULÁRIO DE PEDIDO
-   =================================== */
 
-/* Centraliza a seção inteira */
-.pedido {
-    background-color: #121212;
-    padding: 60px 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-/* Caixa do formulário com visual moderno e centralizado */
-.order-form {
-    max-width: 500px;
-    width: 100%;
-    margin: 0 auto;
-    background-color: #1e1e1e;
-    padding: 35px 30px;
-    border-radius: 12px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
-    border: 1px solid #333;
-}
-
-/* Alinhamento dos rótulos e campos */
-.form-group {
-    margin-bottom: 20px;
-    text-align: left;
-}
-
-.form-group label {
-    display: block;
-    font-weight: 600;
-    margin-bottom: 8px;
-    color: #ffffff;
-    font-size: 0.95rem;
-}
-
-/* Estilização das caixas de texto e seleção */
-.form-input, 
-.form-select {
-    width: 100%;
-    padding: 12px 16px;
-    border-radius: 8px;
-    border: 1px solid #444;
-    background-color: #2a2a2a;
-    color: #ffffff;
-    font-size: 1rem;
-    transition: all 0.3s ease;
-    box-sizing: border-box;
-}
-
-/* Efeito ao selecionar o campo */
-.form-input:focus, 
-.form-select:focus {
-    outline: none;
-    border-color: #ff9f1c;
-    box-shadow: 0 0 8px rgba(255, 159, 28, 0.3);
-}
-
-.form-select option {
-    background-color: #2a2a2a;
-    color: #ffffff;
-}
-
-/* Botão de envio bonito e destacado */
-.btn-submit {
-    width: 100%;
-    padding: 14px;
-    font-size: 1.1rem;
-    font-weight: bold;
-    cursor: pointer;
-    border: none;
-    border-radius: 8px;
-    margin-top: 10px;
-    background-color: #ff9f1c;
-    color: #000;
-    transition: background 0.3s ease, transform 0.2s ease;
-}
-
-.btn-submit:hover {
-    background-color: #e08b18;
-    transform: translateY(-2px);
-}
                 <div class="form-group">
                     <label for="quantidade">Quantidade</label>
                     <input type="number" id="quantidade" name="quantidade" class="form-input" min="1" value="1" required>
